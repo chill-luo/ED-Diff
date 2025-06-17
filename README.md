@@ -1,6 +1,6 @@
 # ED-Diff
 
-![framwork](Z:\qxCode\ED-Diff\figs\framwork.jpg)
+![framwork](./figs/framwork.jpg)
 
 Implementation for the paper  "Diffusion Prior-based Zero-Shot Denoising for Real-World Fluorescence Microscopy Images via Encoder-Decoder Guided Sampling".
 
@@ -115,4 +115,4 @@ python batch_inference.py \
 
 ## Results
 
-![results](Z:\qxCode\ED-Diff\figs\results.jpg)
+![results](./figs/results.jpg)
