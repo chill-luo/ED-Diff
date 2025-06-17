@@ -52,9 +52,9 @@ python pretrain.py \
 
 The key parameters are as follows:
 
-- CUDA_VISIBLE_DEVICES: GPU index
-- OPENAI_LOGDIR: Path to save checkpoints
-- data_dir: High Signal-to-Noise Ratio Image Folder for Pre-training
+- **CUDA_VISIBLE_DEVICES**: GPU index
+- **OPENAI_LOGDIR**: Path to save checkpoints
+- **data_dir**: High Signal-to-Noise Ratio Image Folder for Pre-training
 
 ### Inference
 
@@ -82,14 +82,14 @@ python inference.py \
 
 The key parameters are as follows:
 
-- device: GPU index
-- model_path: Path to the pre-trained model
-- data_pth: Path to the target noisy image
-- gt_pth: Path to the reference image of the target image (delete if no reference image is available)
-- save_dir: Path to save the denoised result
-- ae_iters: Maximum number of iterations for NiTM
-- ae_lr: Maximum learning rate for NiTM
-- cropped_size: Image crop size during NiTM training
+- **device**: GPU index
+- **model_path**: Path to the pre-trained model
+- **data_pth**: Path to the target noisy image
+- **gt_pth**: Path to the reference image of the target image (delete if no reference image is available)
+- **save_dir**: Path to save the denoised result
+- **ae_iters**: Maximum number of iterations for NiTM
+- **ae_lr**: Maximum learning rate for NiTM
+- **cropped_size**: Image crop size during NiTM training
 
 Additionally, we also support batch inference. Simply invoke `batch_inference.py` and adjust the parameters `data_path `and `gt_path `to `data_dir `and `gt_dir`, respectively. Refer to the following example:
 

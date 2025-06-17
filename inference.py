@@ -39,7 +39,6 @@ def main():
 
     save_dir = args.save_dir
     os.makedirs(os.path.join(save_dir, "output"), exist_ok=True)
-    os.makedirs(os.path.join(save_dir, "vis"), exist_ok=True)
     save_args_to_yaml(args, os.path.join(save_dir, "args.yaml"))
     print(f"Target directory: {save_dir}.")
 
