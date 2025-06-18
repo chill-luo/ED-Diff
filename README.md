@@ -13,7 +13,7 @@ We sincerely thank the project [improved-diffusion](https://github.com/openai/im
 
 ## Preparation
 
-We provide several pre-trained models and image samples for testing purposes, which can be accessed via the [link](https://drive.google.com/drive/folders/1DKMAzOxqPLfROyOUvebiiCU3SUIYhDlh?usp=drive_link). Additionally, we include the original links to the open-source datasets used in the paper to facilitate convenient downloading:
+We provide several pre-trained models and image samples for testing purposes, which can be accessed via the [link](https://drive.google.com/drive/folders/17_3fs9Ratmy_tObAUgrcpFO8jheeidch?usp=drive_link). Additionally, we include the original links to the open-source datasets used in the paper to facilitate convenient downloading:
 
 * [CARE](https://edmond.mpg.de/dataset.xhtml?persistentId=doi:10.17617/3.FDFZOF)
 * [3dRCAN](https://zenodo.org/record/4624364#.Y6pszdVByyB)
